@@ -1,6 +1,6 @@
 # Save-a-Term
 
-Hardware for an IBM 5251 and 3278 reverse keyboard adapter to use a regular PS/2 keyboard with the terminals. Based on my TMK controller fork (https://github.com/inmbolmie/ps2_to_4704_converter)
+Hardware for an IBM 5251 and 3278 reverse keyboard adapter to use a regular PS/2 keyboard with the original terminals. Based on my TMK controller fork (https://github.com/inmbolmie/ps2_to_4704_converter)
 
 ![PCB](./images/sat.jpg)
 
@@ -8,7 +8,7 @@ Hardware for an IBM 5251 and 3278 reverse keyboard adapter to use a regular PS/2
 
 You got a pretty vintage 5251 or 3278 terminal but it lacks the original keyboard. The original keyboards are very expensive and sought-after items that can easily go for thousands of dollars. This adapter tries to solve that problem giving a way to use a cheap standard PS/2-like keyboard with the original terminals.
 
-The adapter will also emulate the clicker functionality of the original keyboards using a buzzer to give audible feedback while typing.
+The adapter emulates the clicker functionality of the original keyboards using a buzzer to give audible feedback while typing.
 
 The adapter will also auto-detect the terminal type (5251 or 3278) and use the correct scancode set and signal polarities for the connected terminal.
 
@@ -56,7 +56,7 @@ For the connection to the terminal you have to use a __male-to-female straight D
 
 ![PCB](./images/cable.JPG)
 
-To use the adapter you simply have to plug __ONE keyboard__ to one of the 4 available ports (RJ45, DIN5-240º, DIN5-180º, PS/2) and __the terminal to the right DB-25 connector (female for 5251 and male for 3278)__. The terminal type and connector gender is also clearly marked on the PCB silkscreen. Check that your cable is really straight, pin 1 goes to pin 1, pin 2 goes to pin 2, etc. __It is of the utmost importance not to mix genders or plug the terminal to the wrong connector__, as pretty high voltages are involved on the connectors (+8.5V, +5V. -5V) and the pinouts are incompatible. If you get it wrong you will damage the adapted and/or terminal. __You cannot get it wrong if you stick to only using a male-to-female straight DB25 cable__
+To use the adapter you simply have to plug __ONE keyboard__ to one of the 4 available ports (RJ45, DIN5-240º, DIN5-180º, PS/2) and __the terminal to the right DB-25 connector (female for 5251 and male for 3278)__. The terminal type and connector gender is also clearly marked on the PCB silkscreen. Check that your cable is really straight, pin 1 goes to pin 1, pin 2 goes to pin 2, etc. __It is of the utmost importance not to mix genders or plug the terminal to the wrong connector__, as pretty high voltages are involved on the connectors (+8.5V, +5V. -5V) and the pinouts are incompatible. If you get it wrong you will damage the adapted and/or terminal. __You cannot get it wrong if you stick to only using a male-to-female straight DB25 cable__, as there is no way of plugging it a wrong configuration.
 
 The adapter will auto-detect the terminal type (5251 or 3278) and use the correct scancode set and signal polarities for the connected terminal.
 
