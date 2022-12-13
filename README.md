@@ -23,7 +23,7 @@ If you like it, want an adapter or PCB, or need any information not covered here
 This converter is only compatible with original IBM 5251 and 3278 terminals.
 
 - The original IBM 5251 terminal keyboard has a DB25 female connector
-- The original IBM 5251 terminal keyboard has a DB25 male connector
+- The original IBM 3278 terminal keyboard has a DB25 male connector
 
 If not totally sure, check the voltages accross your terminal connector pins before plugging it to the adapter, here you have the expected 5251 and 3278 keyboard pinouts:
 
