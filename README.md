@@ -2,6 +2,8 @@
 
 Hardware for an IBM 5251 and 3278 reverse keyboard adapter to use a regular PS/2 keyboard with the original terminals. Based on my TMK controller fork (https://github.com/inmbolmie/ps2_to_4704_converter)
 
+<a href="https://www.tindie.com/stores/inmbolmie/?ref=offsite_badges&utm_source=sellers_inmbolmie&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
+
 ![PCB](./images/sat.jpg)
 
 ## Introduction
